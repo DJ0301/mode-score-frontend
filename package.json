@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm i && npm start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -33,6 +34,7 @@
     "react-loader-spinner": "^6.1.6",
     "react-toastify": "^10.0.5",
     "recharts": "^2.12.7",
+    "start": "^5.1.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "viem": "^2.17.5",
